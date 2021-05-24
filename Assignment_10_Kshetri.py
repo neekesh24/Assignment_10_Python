@@ -21,7 +21,7 @@ def main():
         write_file.close()
 
         #reading if the file is stored properly
-        print("File information: ")
+        print("File contents: ")
         readFile = open(os.path.join(directory,fileName),'r')
         for line in readFile:
             print(line)
